@@ -1,0 +1,32 @@
+.pre-footer__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.pre-footer__form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 633px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.pre-footer__input {
+  padding: 15px 200px 15px 10px;
+  border-radius: 8px;
+  border: 2px solid #bcddfe;
+  outline: #bcddfe;
+}
+
+.pre-footer__btn {
+  padding: 15px;
+  position: absolute;
+  border-radius: 8px;
+  background: #40bfff;
+  color: white;
+  border: 2px solid #bcddfe;
+  right: 125px;
+}

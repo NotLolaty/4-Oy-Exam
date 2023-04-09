@@ -1,0 +1,140 @@
+.best-section__title {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.best-section__products-li {
+  transition: all 0.4s ease;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.best-section__products-li:hover {
+  box-shadow: 0px 3px 10px 10px rgba(34, 60, 80, 0.2);
+}
+
+.best-section__list {
+  display: flex;
+  justify-content: space-between;
+  width: 627px;
+  margin: 0 auto;
+}
+
+.best-section__link {
+  color: #262626;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  transition: all 0.4s ease;
+}
+
+.best-section__link:hover {
+  color: #33a0ff;
+  border-bottom: 3px #33a0ff solid;
+}
+
+.best-section__link:active {
+  color: #004683;
+}
+
+.best-section__products-list {
+  @include JcSb;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.box {
+  @include JcSb;
+}
+
+.best-section__products-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #223263;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.best-section__products-rate {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.best-section__products-price {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.best-section__slider-price1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  text-decoration-line: line-through;
+  color: #9098b1;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.best-section__slider-price-off {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #fb7181;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.best-section__slider-price2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #40bfff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.best-section__products-btn {
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.best-section__products-btn-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #33a0ff;
+  transition: all 0.4s ease;
+}
+
+.best-section__products-btn-link:hover {
+  color: #33a0ff;
+  border-bottom: 3px #33a0ff solid;
+}
+

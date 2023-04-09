@@ -1,0 +1,131 @@
+#hero-section {
+  margin-bottom: 300px;
+}
+
+.hero-section__rectangle {
+  position: relative;
+}
+
+.ul-container {
+  position: relative;
+}
+
+.hero-section__rectangle-title {
+  width: 573.17px;
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  top: 175px;
+  left: 65px;
+}
+
+.hero-section__list {
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  position: absolute;
+  top: -115px;
+  right: 15px;
+
+  @media screen and (max-width: 1340px) {
+    .hero-section__slider-title {
+      font-size: 15px;
+    }
+    .first-li {
+      position: absolute;
+      left: 60px;
+    }
+    .second-li {
+      visibility: hidden;
+    }
+    .third-li {
+      visibility: hidden;
+    }
+  }
+
+  @media screen and (max-width: 1170px) {
+    .hero-section__slider-title {
+      font-size: 10px;
+    }
+
+    .hero-section__rectangle-title {
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 840px) {
+    .first-li {
+    }
+  }
+}
+
+.hero-section__slider {
+  position: relative;
+}
+
+.hero-section__slider-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #223263;
+  position: absolute;
+  width: 202.18px;
+  top: 45px;
+  left: 35px;
+}
+
+.hero-section__slider-price1 {
+  bottom: 35px;
+  text-decoration: line-through;
+  width: 73px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  text-decoration-line: line-through;
+  color: #9098b1;
+  left: 25px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: absolute;
+}
+
+.hero-section__slider-price-off {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #fb7181;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  position: absolute;
+  bottom: 35px;
+  left: 110px;
+}
+
+.hero-section__slider-price2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  bottom: 0;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+  color: #40bfff;
+  position: absolute;
+  right: 15px;
+}

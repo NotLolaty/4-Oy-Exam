@@ -1,0 +1,65 @@
+#site-footer {
+  padding-top: 100px;
+  background-color: #bcddfe;
+  padding-bottom: 100px;
+}
+
+.site-footer__container {
+  @include JcSb;
+  align-items: center;
+}
+
+.site-footer__logo-text {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #22262a;
+  width: 221px;
+}
+
+.site-footer__follow-us-title {
+  margin-bottom: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22262a;
+}
+
+.site-footer__follow-us-text {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #22262a;
+  width: 198px;
+  margin-bottom: 20px;
+}
+
+.site-footer__contact-us-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22262a;
+  margin-bottom: 20px;
+}
+
+.site-footer__contact-us-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #22262a;
+  width: 148px;
+}
+
+.site-footer__follow-us-twitter {
+  margin-left: 40px;
+}
