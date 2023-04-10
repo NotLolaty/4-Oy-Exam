@@ -14,10 +14,10 @@ const render = () => {
     <img src="${el.img}" alt="product" />
     </div>
     <div>
-    <h2>${el.title}</h2>
-    <p>${el.price}$</p>
-    <p>${el.count > 0 ? el.count : "Товар не доступен"}</p>
-    <button id="${el.id}" class="add">Add</button>
+    <h2 class="jstitle">${el.title}</h2>
+    <p class="jstext1">${el.price}$</p>
+    <p class="jstext2">${el.count > 0 ? el.count : "Товар не доступен"}</p>
+    <button id="${el.id}" class="add jsbtn">Add</button>
     </div>
     </div>
  `
@@ -41,7 +41,7 @@ const renderCart = () => {
       <p>${el.price}$ --> ${el.userPrice}$</p>
       <button id="${el.id}" class="inc">+</button>
       <span>${el.userCount}</span>
-      <button id="${el.id}" class="dec">-</button>
+      <button id="${el.id}" class="dec jsbtn">-</button>
       </div>
       </div>
     `
@@ -60,15 +60,6 @@ box.addEventListener("click", (e) => {
           i.count -= 1;
           cart.push({ ...i, userPrice: i.price, userCount: 1 });
         }
-        // else {
-        //   for (let cartItem of cart) {
-        //     if (cartItem.userCount == 0) {
-        //       i.count -= 1;
-        //       cartItem.userCount += 1;
-        //       cartItem.userPrice = cartItem.price * cartItem.userCount;
-        //     }
-        //   }
-        // }
       }
     }
     if (i.id == id) {

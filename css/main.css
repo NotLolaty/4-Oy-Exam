@@ -691,12 +691,16 @@ body {
   gap: 20px;
 }
 
-button {
+.jsbtn {
   padding: 7px 10px;
   cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: black;
 }
 
-.box {
+.xob {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -705,6 +709,19 @@ button {
 
 .products,
 .cart {
-  border: 2px solid red;
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.1);
   height: 80vh;
+}
+
+.jstitle {
+  margin-bottom: 10px;
+}
+
+.jstext1 {
+  margin-bottom: 10px;
+}
+
+.jstext2 {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */
